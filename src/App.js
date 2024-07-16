@@ -11,17 +11,15 @@ import SocialLinks from "./Components/SocialLinks";
 function App() {
 
   return (
-    <div className='overflow-y-scroll no-scrollbar'>
+    <>
       <Navbar />
-      <div>
         <Home />
         <About />
-        <Project />
         <Skill />
+        <Project />
         <Contact />
         <SocialLinks />
-      </div>
-    </div>
+    </>
   );
 }
 
