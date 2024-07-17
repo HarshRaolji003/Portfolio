@@ -18,15 +18,6 @@ import materialUI from "./skills/MaterialUI.png"
 
 export const description = "I am Harsh Raolji, a skilled Computer Engineer with a passion for programming. I specialize in crafting dynamic, user-centric web applications and thrive on tackling challenging projects while continuously expanding my knowledge.";
 
-const academic = [
-    {
-        id: 1,
-        education: "B.E Computer Engineering",
-        CGPA: 7.60
-    },
-    
-];
-
 export const links = [
     {
         id: 1,

@@ -30,7 +30,7 @@ export default function Navbar() {
 
     return (
         <div className='navbar'>
-            <div className='text-4xl font-signature'>
+            <div className='hidden md:block  text-4xl font-signature '>
                 Harsh
             </div>
             <nav className=" hidden md:flex">
@@ -46,22 +46,25 @@ export default function Navbar() {
 
                 })}
             </nav>
-            
+
             <div onClick={() => setNav(!nav)} className='cursor-pointer pr-4 z-10 text-gray-500 md:hidden'>
                 {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
             </div>
             {nav && (
 
-                <nav className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen '>
-                    {links.map(({ id, link }) => {
-                        return (
+                <nav className=' flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen backdrop-blur-sm bg-white/20'>
+                    {links.map(({ id, link }) => (
 
-                            <span key={id} className="px-4 cursor-pointer capitalize py-6 text-4xl text-gray-500">
-                                {link}
+                            <span 
+                                key={id}  
+                                className="px-4 cursor-pointer capitalize py-6 text-4xl text-white">
+                                <Link onClick={()=>setNav(!nav)} to={link} smooth duration={500}>
+                                    {link}
+                                </Link>
                             </span>
-                        );
+                        )
 
-                    })}
+                    )}
                     {/* <span className='px-4 cursor-pointer capitalize py-6 text-4xl '></span> */}
                 </nav>
             )}
