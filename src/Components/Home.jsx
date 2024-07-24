@@ -3,7 +3,7 @@ import React from 'react'
 import { MdOutlineCloudDownload } from "react-icons/md";
 // assets
 import profile from '../assets/image/profile-3.png'
-import resume from '../assets/Resume.pdf';
+import resume from '../assets/Resume_HarshRaolji.pdf';
 import { description } from '../assets/details';
 
 export default function Home() {

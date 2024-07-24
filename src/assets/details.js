@@ -27,7 +27,7 @@ export const links = [
                 LinkedIn <FaLinkedin size={30} />
             </>
         ),
-        href: "www.linkedin.com/in/harsh-raolji-22b0131b2",
+        href: "https://www.linkedin.com/in/harsh-raolji-22b0131b2/",
         style: 'rounded-tr-md'
     },
     {
