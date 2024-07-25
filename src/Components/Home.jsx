@@ -19,7 +19,7 @@ export default function Home() {
           </p>
           {/* resume download button */}
           <div >
-            <a href={resume} target='_blank' download="Resume.pdf" className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
+            <a href={resume} target='_blank'rel="noreferrer" download="Resume.pdf" className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
               Resume
               <span className='group-hover:scale-75 duration-300 '>
               <MdOutlineCloudDownload size={20} className='ml-1'/>
