@@ -1,13 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1006%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M270.9537807745947 229.31084913750655L209.0824429881138 295.6597358270965 337.30266746418465 291.18218692398744z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M360.158%2c356.025C390.762%2c357.816%2c421.259%2c343.042%2c436.204%2c316.276C450.835%2c290.072%2c444.473%2c258.343%2c429.088%2c232.574C414.144%2c207.543%2c389.309%2c188.584%2c360.158%2c188.9C331.477%2c189.21%2c306.999%2c208.592%2c293.764%2c234.039C281.518%2c257.583%2c285.425%2c284.884%2c298.111%2c308.193C311.491%2c332.777%2c332.217%2c354.39%2c360.158%2c356.025' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1152.886%2c483.365C1190.646%2c483.817%2c1227.204%2c468.145%2c1247.545%2c436.329C1269.57%2c401.878%2c1276.925%2c357.274%2c1255.933%2c322.183C1235.376%2c287.818%2c1192.819%2c275.106%2c1152.886%2c278.092C1117.906%2c280.708%2c1091.117%2c305.512%2c1073.471%2c335.828C1055.69%2c366.377%2c1045.321%2c402.983%2c1062.074%2c434.108C1079.568%2c466.608%2c1115.98%2c482.923%2c1152.886%2c483.365' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M294.9118952224294 419.58387327225336L172.06995384828875 464.1621494947317 258.28436645071395 539.107194978636z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1226.351%2c268.625C1250.676%2c267.209%2c1271.125%2c252.75%2c1283.876%2c231.987C1297.364%2c210.025%2c1304.728%2c183.257%2c1292.813%2c160.403C1280.106%2c136.03%2c1253.791%2c120.036%2c1226.351%2c121.647C1201.036%2c123.133%2c1185.169%2c145.72%2c1172.156%2c167.485C1158.633%2c190.102%2c1143.48%2c216.208%2c1155.926%2c239.435C1168.79%2c263.442%2c1199.161%2c270.208%2c1226.351%2c268.625' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1429.161%2c740.786C1489.431%2c742.804%2c1536.295%2c692.723%2c1563.891%2c639.104C1589.018%2c590.282%2c1588.696%2c532.608%2c1560.574%2c485.447C1533.131%2c439.424%2c1482.701%2c415.338%2c1429.161%2c413.159C1370.94%2c410.789%2c1305.961%2c422.918%2c1277.812%2c473.937C1250.239%2c523.91%2c1281.043%2c580.931%2c1309.201%2c630.577C1337.913%2c681.2%2c1370.996%2c738.839%2c1429.161%2c740.786' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1006'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+
+@layer components{
+    *{
+      @apply  scrollbar scrollbar-none
+    }
+    .bg{
+        @apply url
+    }
+    .navbar{
+        @apply  px-4  flex justify-between items-center w-full h-20 fixed
+    }
+    
+    .text_effect{
+        @apply text-2xl sm:text-[5rem]  m-0 leading-[0] 
+    }
+    
 }
 
-.navbar{
-    @apply text-white px-4 flex justify-between items-center w-full h-20 fixed
-}
