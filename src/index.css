@@ -10,9 +10,7 @@
     *{
       @apply  scrollbar scrollbar-none
     }
-    .bg{
-        @apply url
-    }
+    
     .navbar{
         @apply  px-4  flex justify-between items-center w-full h-20 fixed
     }

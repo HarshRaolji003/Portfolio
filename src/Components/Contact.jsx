@@ -92,7 +92,7 @@ export default function Contact() {
             {errors.message && <span className='text-red-500 text-sm'>{errors.message}</span>}
             <button
               type='submit'
-              className="bg-slate-100 stroke-slate-600 border border-slate-200 col-span-2 flex justify-center rounded-lg p-2 duration-300 hover:border-slate-600 hover:text-white focus:stroke-blue-200 focus:bg-blue-400"
+              className="bg-slate-100 stroke-slate-600 border border-slate-200 col-span-2 w-40 flex justify-center self-center rounded-lg p-2 duration-300 hover:border-slate-600 hover:text-white focus:stroke-blue-200 focus:bg-blue-400"
               disabled={isSubmitting}
             >
               {isSubmitting ? (

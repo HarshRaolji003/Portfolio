@@ -9,13 +9,13 @@ import 'slick-carousel/slick/slick-theme.css';
 
 // Custom arrows for the slider
 const NextArrow = ({ onClick }) => (
-  <div className="absolute m-2 p-2 right-3 top-1/2 transform -translate-y-1/2 z-10 text-white cursor-pointer rounded-full bg-gray-400/25 drop-shadow-md" onClick={onClick}>
+  <div className="absolute m-2 p-2 right-3 top-1/2 transform -translate-y-1/2 z-10 text-white cursor-pointer rounded-full bg-gray-400/10 drop-shadow-md" onClick={onClick}>
     <FaArrowRight size={24} />
   </div>
 );
 
 const PrevArrow = ({ onClick }) => (
-  <div className="absolute m-2 p-2 left-3 top-1/2 transform -translate-y-1/2 z-10 text-white cursor-pointer rounded-full bg-gray-400/25 drop-shadow-md" onClick={onClick}>
+  <div className="absolute m-2 p-2 left-3 top-1/2 transform -translate-y-1/2 z-10 text-white cursor-pointer rounded-full bg-gray-400/10 drop-shadow-md" onClick={onClick}>
     <FaArrowLeft size={24} />
   </div>
 );

@@ -1,5 +1,5 @@
 // react Icons
-import { FaLinkedin, FaGithub, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaGithub,  FaEnvelope } from 'react-icons/fa';
 // image
 import WeatherAppImage from "./image/Projects/Weather_App.png";
 // skills
@@ -30,11 +30,6 @@ export const links = [
     },
     {
         id: 3,
-        child: <FaTwitter size={24} />,
-        href: "https://www.twitter.com"
-    },
-    {
-        id: 4,
         child: <FaEnvelope size={24} />,
         href: "mailto:harshraolji2003@gmail.com"
     },
