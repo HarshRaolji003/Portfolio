@@ -28,10 +28,10 @@ export default function Navbar() {
 
     return (
         <div className='navbar z-10  md:grid grid-cols-12 '>
-            <p className='hidden mt-4  col-span-3 text-center md:block text-5xl font-signature text-platinum-100'>
+            <p className='hidden mt-4 col-span-3 text-center md:block text-5xl font-signature text-platinum-100  dark:text-white'>
                 Harsh
             </p>
-            <nav className="hidden mt-4 col-span-6 md:flex justify-evenly outline-none  rounded-full bg-[white] drop-shadow-lg dark:bg-slate-400 dark:text-white ">
+            <nav className="hidden mt-4 col-span-6 md:flex justify-evenly outline-none  rounded-full bg-white/80 drop-shadow-lg dark:bg-Anti-flash-white dark:text-white ">
                 {links.map(({ id, path, title }) => {
                     const isActive = location.pathname === path;
                     return (

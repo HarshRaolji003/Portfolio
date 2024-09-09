@@ -8,6 +8,9 @@ module.exports = {
     extend: {
       colors: {
         "light-bg":"#f3f5f7",
+        "Anti-flash-white":"#E9ECEF",
+        "Eerie_black":"#212529",
+        "Seasalt":"#F8F9FA",
         'space_cadet': {
           DEFAULT: '#233048',
           100: '#070a0e',
@@ -57,7 +60,7 @@ module.exports = {
           900: '#f4f2f1'
         },
         'platinum': {
-          DEFAULT: '#e0e1dd',
+          DEFAULT: '#DEE2E6',
           100: '#2e2f2a',
           200: '#5b5e53',
           300: '#898c7e',

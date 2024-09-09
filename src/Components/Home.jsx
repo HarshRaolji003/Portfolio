@@ -43,13 +43,13 @@ export default function Home() {
   }, []);
 
   return (
-    <main className=" px-5 py-24 mx-auto  dark:bg-[#354250]">
+    <main className=" px-5 py-24 mx-auto bg-Seasalt dark:bg-Eerie_black">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
 
         <div className='container  mb-8 '>
           <section className='flex justify-center items-center  '>
             <motion.div
-              className='  overflow-hidden rounded-full drop-shadow-xl '
+              className='  overflow-hidden rounded-full drop-shadow-xl dark:shadow-lg dark:shadow-white/50 '
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.6, ease: 'easeOut' }}
@@ -61,7 +61,7 @@ export default function Home() {
           {/* Text animation */}
           <div className=" mt-6 space-y-3 text-center">
             {['Frontend Developer', 'Python Developer', 'Harsh Raolji'].map((text, index) => (
-              <p key={text} className='text_effect font-semibold text-gray-700 dark:text-gray-300 w-auto h-fit'>
+              <p key={text} className='text_effect font-semibold text-gray-700 dark:text-platinum w-auto h-fit'>
                 {text}
               </p>
             ))}
@@ -70,7 +70,7 @@ export default function Home() {
 
         {/* Description and Resume Download Button */}
         <div className='grid gap-4'>
-          <p className="text-gray-500 max-w-md leading-relaxed text-wrap">
+          <p className="text-gray-500 max-w-md leading-relaxed text-wrap dark:text-gray-300">
             {description}
           </p>
 
@@ -80,8 +80,8 @@ export default function Home() {
               href="https://drive.google.com/file/d/1JnjWGulMebljvilWD1vH0m7De-aKoLKr/view?usp=drive_link"
               target="_blank"
               rel="noreferrer"
-              className="w-[160px] bg-black h-[50px] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg text-white"
-              whileHover={{ scale: 1.1 }}
+              className="w-[160px] bg-black h-[50px] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg text-white dark:text-black dark:bg-white"
+              whileHover={{ scale: 1 }}
               whileTap={{ scale: 0.95 }}
             >
               <span className="relative z-10 flex items-center">

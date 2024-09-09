@@ -62,8 +62,8 @@ export default function Skill() {
 
         {/* Header */}
         <div className='pb-8'>
-          <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline font-sans text-gray-700'>Skill</p>
-          <p className='py-6 text-gray-500'>These are the technologies I've worked with</p>
+          <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline font-sans text-gray-700 dark:text-Anti-flash-white'>Skill</p>
+          <p className='py-6 text-gray-500 dark:text-white'>These are the technologies I've worked with</p>
         </div>
 
         {/* Skills template */}
@@ -77,7 +77,7 @@ export default function Skill() {
                 transition={{ type: 'spring', stiffness: 300 }}
               >
                 <img src={src} alt={`${title} logo`} className="w-20 object-contain mx-auto" />
-                <p className="mt-4 text-lg font-medium text-center">{title}</p>
+                <p className="mt-4 text-lg font-medium text-center dark:text-gray-300">{title}</p>
               </motion.div>
             ))}
           </Slider>

@@ -25,18 +25,6 @@ export default function Footer() {
                 </div>
                 <div className="mt-8 text-center text-gray-400">
                     &copy; 2024 Harsh Raolji. All rights reserved.
-                    <p>
-                        This project is licensed under the{' '}
-                        <a
-                            href="https://opensource.org/licenses/MIT"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-gray-400 hover:text-white underline"
-                        >
-                            MIT License
-                        </a>
-                        .
-                    </p>
                 </div>
             </div>
         </footer>

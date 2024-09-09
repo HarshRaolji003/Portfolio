@@ -53,14 +53,14 @@ export default function Contact() {
   };
 
   return (
-    <div className='px-5 py-20 mx-auto bg-light-bg'>
+    <div className='px-5 py-20 mx-auto bg-Seasalt dark:bg-Eerie_black'>
       <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'>
         <div className='pb-8'>
-          <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline font-sans text-gray-700 dark:text-gray-300'>Contact</p>
-          <p className='py-6 text-gray-500'>Submit the form below to get in touch with me</p>
+          <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline font-sans text-gray-700 dark:text-Anti-flash-white'>Contact</p>
+          <p className='py-6 text-gray-500 dark:text-white'>Submit the form below to get in touch with me</p>
         </div>
 
-        <div className='flex justify-center items-center border border-slate-200 rounded-xl p-2 text-sm'>
+        <div className='flex justify-center items-center border border-slate-200 rounded-xl p-2 text-sm dark:border-none'>
           <form onSubmit={handleSubmit} className='flex flex-col w-full space-y-1 md:w-1/2'>
             <input
               type="text"
@@ -107,6 +107,12 @@ export default function Contact() {
                 </svg>
               )}
             </button>
+            {/* <button
+              type='reset'
+              className="bg-slate-100 stroke-slate-600 border border-slate-200 col-span-2 w-40 flex justify-center self-center rounded-lg p-2 duration-300 hover:border-slate-600 "
+            >
+              Reset
+            </button> */}
           </form>
         </div>
       </div>

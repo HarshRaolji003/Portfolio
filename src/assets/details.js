@@ -2,6 +2,7 @@
 import { FaLinkedin, FaGithub,  FaEnvelope } from 'react-icons/fa';
 // image
 import WeatherAppImage from "./image/Projects/Weather_App.png";
+import SortingVisualizerImage from "./image/Projects/Sorting_Visualizer.png";
 // skills
 import html from "./skills/html.png";
 import css from "./skills/css.png";
@@ -104,5 +105,11 @@ export const projects = [
         src: WeatherAppImage,
         code: "https://github.com/HarshRaolji003/Weather-Application.git",
         demo: "https://harshraolji003.github.io/Weather-Application/"
-    }
+    },
+    {
+        id: 2,
+        src: SortingVisualizerImage,
+        code: "https://github.com/HarshRaolji003/Sorting_Visualizer.git",
+        demo: "https://harshraolji003.github.io/Sorting_Visualizer/"
+    },
 ];
